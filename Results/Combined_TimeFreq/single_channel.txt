@@ -1,0 +1,14 @@
+2024-12-10 23:01:55,957 - INFO - Test Loss: 0.3788, Test Accuracy: 0.7816
+3/3 [==============================] - 0s 1000us/step
+2024-12-10 23:01:56,147 - INFO -
+Classification Report:
+2024-12-10 23:01:56,154 - INFO -               precision    recall  f1-score   support
+
+           0       0.38      0.31      0.34        16
+           1       0.85      0.89      0.87        71
+
+    accuracy                           0.78        87
+   macro avg       0.62      0.60      0.61        87
+weighted avg       0.77      0.78      0.77        87
+
+2024-12-10 23:01:56,156 - INFO - ROC AUC Score: 0.8397887323943662

@@ -1,0 +1,14 @@
+combined dataset - time,freq - ensemble Results
+Model Performance Comparison:
+
+2024-12-10 23:03:39,380 - INFO -                 Model  Accuracy  ROC AUC Score
+4        RandomForest  0.839080       0.828785
+8                 MLP  0.781609       0.824824
+3          ExtraTrees  0.839080       0.811620
+2    GradientBoosting  0.816092       0.795775
+7            AdaBoost  0.758621       0.794894
+6  LogisticRegression  0.804598       0.785211
+1                 KNN  0.712644       0.778169
+9          NaiveBayes  0.551724       0.749120
+5        DecisionTree  0.689655       0.688820
+0                 SVM  0.643678       0.638204
