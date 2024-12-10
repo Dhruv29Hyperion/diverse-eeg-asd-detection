@@ -9,7 +9,7 @@ This project aims to develop a robust method for detecting Autism Spectrum Disor
 ## Methodology
 
 1. **Data Integration**:
-   - Combined two EEG datasets: Aging and BCIAUT
+   - Combined two EEG datasets: Aging(University of Sheffield) and BICAUT
    - Employed data harmonization techniques such as Advanced Time-Aligned Resampling (ATAR), band-pass filtering, channel standardization, and feature normalization.
 
 2. **Feature Extraction**:
