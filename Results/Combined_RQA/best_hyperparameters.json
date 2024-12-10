@@ -1,0 +1,1 @@
+{"units_input": 96, "num_layers": 1, "units_0": 128, "dropout_0": 0.4, "units_1": 64, "dropout_1": 0.4, "learning_rate": 0.001}

@@ -1,0 +1,217 @@
+2024-12-10 22:43:26,705 - INFO - Training SVM...
+2024-12-10 22:43:26,707 - INFO - Using previously saved best parameters for SVM: {'C': 1.0, 'class_weight': None, 'gamma': 'scale', 'kernel': 'rbf'}
+2024-12-10 22:43:26,733 - INFO - Classification Report for SVM:
+              precision    recall  f1-score   support
+
+           0       0.50      0.24      0.32        17
+           1       0.84      0.94      0.89        70
+
+    accuracy                           0.80        87
+   macro avg       0.67      0.59      0.60        87
+weighted avg       0.77      0.80      0.78        87
+
+2024-12-10 22:43:26,733 - INFO - Confusion Matrix:
+[[ 4 13]
+ [ 4 66]]
+2024-12-10 22:43:26,733 - INFO - Training KNN...
+2024-12-10 22:43:26,734 - INFO - Using previously saved best parameters for KNN: {'algorithm': 'auto', 'n_neighbors': 3, 'weights': 'uniform'}
+2024-12-10 22:43:26,746 - INFO - Classification Report for KNN:
+              precision    recall  f1-score   support
+
+           0       0.26      0.47      0.33        17
+           1       0.84      0.67      0.75        70
+
+    accuracy                           0.63        87
+   macro avg       0.55      0.57      0.54        87
+weighted avg       0.73      0.63      0.67        87
+
+2024-12-10 22:43:26,747 - INFO - Confusion Matrix:
+[[ 8  9]
+ [23 47]]
+2024-12-10 22:43:26,747 - INFO - Training GradientBoosting...
+2024-12-10 22:43:26,747 - INFO - Using previously saved best parameters for GradientBoosting: {'learning_rate': 0.01, 'max_depth': 3, 'max_features': 'sqrt', 'min_samples_split': 2, 'n_estimators': 50, 'subsample': 0.7}
+C:\Users\Dhruv\anaconda3\envs\mlpr\lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+C:\Users\Dhruv\anaconda3\envs\mlpr\lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+C:\Users\Dhruv\anaconda3\envs\mlpr\lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+C:\Users\Dhruv\anaconda3\envs\mlpr\lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+C:\Users\Dhruv\anaconda3\envs\mlpr\lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+C:\Users\Dhruv\anaconda3\envs\mlpr\lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+2024-12-10 22:43:26,787 - INFO - Classification Report for GradientBoosting:
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00        17
+           1       0.80      1.00      0.89        70
+
+    accuracy                           0.80        87
+   macro avg       0.40      0.50      0.45        87
+weighted avg       0.65      0.80      0.72        87
+
+2024-12-10 22:43:26,788 - INFO - Confusion Matrix:
+[[ 0 17]
+ [ 0 70]]
+2024-12-10 22:43:26,788 - INFO - Training ExtraTrees...
+2024-12-10 22:43:26,788 - INFO - Using previously saved best parameters for ExtraTrees: {'max_depth': 10, 'max_features': 'sqrt', 'min_samples_split': 10, 'n_estimators': 50}
+2024-12-10 22:43:26,835 - INFO - Classification Report for ExtraTrees:
+              precision    recall  f1-score   support
+
+           0       0.33      0.35      0.34        17
+           1       0.84      0.83      0.83        70
+
+    accuracy                           0.74        87
+   macro avg       0.59      0.59      0.59        87
+weighted avg       0.74      0.74      0.74        87
+
+2024-12-10 22:43:26,836 - INFO - Confusion Matrix:
+[[ 6 11]
+ [12 58]]
+2024-12-10 22:43:26,836 - INFO - Training RandomForest...
+2024-12-10 22:43:26,836 - INFO - Using previously saved best parameters for RandomForest: {'bootstrap': True, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_split': 10, 'n_estimators': 100}
+2024-12-10 22:43:26,960 - INFO - Classification Report for RandomForest:
+              precision    recall  f1-score   support
+
+           0       0.25      0.29      0.27        17
+           1       0.82      0.79      0.80        70
+
+    accuracy                           0.69        87
+   macro avg       0.54      0.54      0.54        87
+weighted avg       0.71      0.69      0.70        87
+
+2024-12-10 22:43:26,961 - INFO - Confusion Matrix:
+[[ 5 12]
+ [15 55]]
+2024-12-10 22:43:26,961 - INFO - Training DecisionTree...
+2024-12-10 22:43:26,961 - INFO - Using previously saved best parameters for DecisionTree: {'criterion': 'entropy', 'max_depth': 10, 'min_samples_split': 2}
+2024-12-10 22:43:26,974 - INFO - Classification Report for DecisionTree:
+              precision    recall  f1-score   support
+
+           0       0.31      0.65      0.42        17
+           1       0.88      0.64      0.74        70
+
+    accuracy                           0.64        87
+   macro avg       0.59      0.64      0.58        87
+weighted avg       0.77      0.64      0.68        87
+
+2024-12-10 22:43:26,975 - INFO - Confusion Matrix:
+[[11  6]
+ [25 45]]
+2024-12-10 22:43:26,975 - INFO - Training LogisticRegression...
+2024-12-10 22:43:26,975 - INFO - Using previously saved best parameters for LogisticRegression: {'C': 1.0, 'class_weight': None, 'penalty': 'l2', 'solver': 'liblinear'}
+C:\Users\Dhruv\anaconda3\envs\mlpr\lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+C:\Users\Dhruv\anaconda3\envs\mlpr\lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+C:\Users\Dhruv\anaconda3\envs\mlpr\lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+C:\Users\Dhruv\anaconda3\envs\mlpr\lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+C:\Users\Dhruv\anaconda3\envs\mlpr\lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+C:\Users\Dhruv\anaconda3\envs\mlpr\lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+2024-12-10 22:43:26,988 - INFO - Classification Report for LogisticRegression:
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00        17
+           1       0.80      1.00      0.89        70
+
+    accuracy                           0.80        87
+   macro avg       0.40      0.50      0.45        87
+weighted avg       0.65      0.80      0.72        87
+
+2024-12-10 22:43:26,989 - INFO - Confusion Matrix:
+[[ 0 17]
+ [ 0 70]]
+2024-12-10 22:43:26,989 - INFO - Training AdaBoost...
+2024-12-10 22:43:26,989 - INFO - Using previously saved best parameters for AdaBoost: {'algorithm': 'SAMME.R', 'learning_rate': 0.1, 'n_estimators': 50}
+2024-12-10 22:43:27,059 - INFO - Classification Report for AdaBoost:
+              precision    recall  f1-score   support
+
+           0       0.36      0.29      0.32        17
+           1       0.84      0.87      0.85        70
+
+    accuracy                           0.76        87
+   macro avg       0.60      0.58      0.59        87
+weighted avg       0.74      0.76      0.75        87
+
+2024-12-10 22:43:27,060 - INFO - Confusion Matrix:
+[[ 5 12]
+ [ 9 61]]
+2024-12-10 22:43:27,060 - INFO - Training MLP...
+2024-12-10 22:43:27,060 - INFO - Using previously saved best parameters for MLP: {'activation': 'relu', 'alpha': 1.0, 'hidden_layer_sizes': [50, 50], 'learning_rate': 'adaptive', 'solver': 'adam'}
+C:\Users\Dhruv\anaconda3\envs\mlpr\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:686: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  warnings.warn(
+2024-12-10 22:43:27,259 - INFO - Classification Report for MLP:
+              precision    recall  f1-score   support
+
+           0       0.54      0.41      0.47        17
+           1       0.86      0.91      0.89        70
+
+    accuracy                           0.82        87
+   macro avg       0.70      0.66      0.68        87
+weighted avg       0.80      0.82      0.81        87
+
+2024-12-10 22:43:27,259 - INFO - Confusion Matrix:
+[[ 7 10]
+ [ 6 64]]
+2024-12-10 22:43:27,259 - INFO - Training NaiveBayes...
+2024-12-10 22:43:27,273 - INFO - Classification Report for NaiveBayes:
+              precision    recall  f1-score   support
+
+           0       0.21      0.47      0.29        17
+           1       0.81      0.56      0.66        70
+
+    accuracy                           0.54        87
+   macro avg       0.51      0.51      0.47        87
+weighted avg       0.69      0.54      0.59        87
+
+2024-12-10 22:43:27,274 - INFO - Confusion Matrix:
+[[ 8  9]
+ [31 39]]
+2024-12-10 22:43:27,465 - INFO - Classification Report for VotingClassifier:
+              precision    recall  f1-score   support
+
+           0       0.38      0.29      0.33        17
+           1       0.84      0.89      0.86        70
+
+    accuracy                           0.77        87
+   macro avg       0.61      0.59      0.60        87
+weighted avg       0.75      0.77      0.76        87
+
+2024-12-10 22:43:27,465 - INFO - Confusion Matrix for VotingClassifier:
+[[ 5 12]
+ [ 8 62]]
+2024-12-10 22:43:28,350 - INFO - Classification Report for StackingClassifier:
+              precision    recall  f1-score   support
+
+           0       0.33      0.29      0.31        17
+           1       0.83      0.86      0.85        70
+
+    accuracy                           0.75        87
+   macro avg       0.58      0.58      0.58        87
+weighted avg       0.74      0.75      0.74        87
+
+2024-12-10 22:43:28,350 - INFO - Confusion Matrix for StackingClassifier:
+[[ 5 12]
+ [10 60]]
+2024-12-10 22:43:28,351 - INFO -
+Model Performance Comparison:
+
+2024-12-10 22:43:28,351 - INFO -                  Model  Accuracy  ROC AUC Score
+8                  MLP  0.816092       0.738655
+0                  SVM  0.804598       0.723529
+10    VotingClassifier  0.770115       0.706723
+11  StackingClassifier  0.747126       0.703361
+1                  KNN  0.632184       0.693697
+3           ExtraTrees  0.735632       0.693277
+2     GradientBoosting  0.804598       0.678992
+5         DecisionTree  0.643678       0.678571
+7             AdaBoost  0.758621       0.678151
+4         RandomForest  0.689655       0.671429
+9           NaiveBayes  0.540230       0.525210
+6   LogisticRegression  0.804598       0.494958
