@@ -1,0 +1,193 @@
+2024-12-10 19:43:38,368 - INFO - Training SVM...
+2024-12-10 19:43:38,368 - INFO - Using previously saved best parameters for SVM: {'C': 1.0, 'class_weight': None, 'gamma': 'scale', 'kernel': 'rbf'}
+2024-12-10 19:43:38,388 - INFO - Classification Report for SVM:
+              precision    recall  f1-score   support
+
+           0       0.89      0.36      0.52        22
+           1       0.74      0.98      0.84        41
+
+    accuracy                           0.76        63
+   macro avg       0.81      0.67      0.68        63
+weighted avg       0.79      0.76      0.73        63
+
+2024-12-10 19:43:38,389 - INFO - Confusion Matrix:
+[[ 8 14]
+ [ 1 40]]
+2024-12-10 19:43:38,389 - INFO - Training KNN...
+2024-12-10 19:43:38,389 - INFO - Using previously saved best parameters for KNN: {'algorithm': 'auto', 'n_neighbors': 3, 'weights': 'uniform'}
+2024-12-10 19:43:38,401 - INFO - Classification Report for KNN:
+              precision    recall  f1-score   support
+
+           0       0.62      0.68      0.65        22
+           1       0.82      0.78      0.80        41
+
+    accuracy                           0.75        63
+   macro avg       0.72      0.73      0.73        63
+weighted avg       0.75      0.75      0.75        63
+
+2024-12-10 19:43:38,401 - INFO - Confusion Matrix:
+[[15  7]
+ [ 9 32]]
+2024-12-10 19:43:38,401 - INFO - Training GradientBoosting...
+2024-12-10 19:43:38,401 - INFO - Using previously saved best parameters for GradientBoosting: {'learning_rate': 0.01, 'max_depth': 3, 'max_features': 'sqrt', 'min_samples_split': 2, 'n_estimators': 50, 'subsample': 0.7}
+2024-12-10 19:43:38,436 - INFO - Classification Report for GradientBoosting:
+              precision    recall  f1-score   support
+
+           0       1.00      0.18      0.31        22
+           1       0.69      1.00      0.82        41
+
+    accuracy                           0.71        63
+   macro avg       0.85      0.59      0.56        63
+weighted avg       0.80      0.71      0.64        63
+
+2024-12-10 19:43:38,436 - INFO - Confusion Matrix:
+[[ 4 18]
+ [ 0 41]]
+2024-12-10 19:43:38,436 - INFO - Training ExtraTrees...
+2024-12-10 19:43:38,437 - INFO - Using previously saved best parameters for ExtraTrees: {'max_depth': 10, 'max_features': 'sqrt', 'min_samples_split': 10, 'n_estimators': 50}
+2024-12-10 19:43:38,480 - INFO - Classification Report for ExtraTrees:
+              precision    recall  f1-score   support
+
+           0       0.60      0.41      0.49        22
+           1       0.73      0.85      0.79        41
+
+    accuracy                           0.70        63
+   macro avg       0.66      0.63      0.64        63
+weighted avg       0.68      0.70      0.68        63
+
+2024-12-10 19:43:38,481 - INFO - Confusion Matrix:
+[[ 9 13]
+ [ 6 35]]
+2024-12-10 19:43:38,481 - INFO - Training RandomForest...
+2024-12-10 19:43:38,481 - INFO - Using previously saved best parameters for RandomForest: {'bootstrap': True, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_split': 10, 'n_estimators': 100}
+2024-12-10 19:43:38,601 - INFO - Classification Report for RandomForest:
+              precision    recall  f1-score   support
+
+           0       0.55      0.50      0.52        22
+           1       0.74      0.78      0.76        41
+
+    accuracy                           0.68        63
+   macro avg       0.65      0.64      0.64        63
+weighted avg       0.68      0.68      0.68        63
+
+2024-12-10 19:43:38,602 - INFO - Confusion Matrix:
+[[11 11]
+ [ 9 32]]
+2024-12-10 19:43:38,602 - INFO - Training DecisionTree...
+2024-12-10 19:43:38,602 - INFO - Using previously saved best parameters for DecisionTree: {'criterion': 'entropy', 'max_depth': 10, 'min_samples_split': 2}
+2024-12-10 19:43:38,615 - INFO - Classification Report for DecisionTree:
+              precision    recall  f1-score   support
+
+           0       0.47      0.41      0.44        22
+           1       0.70      0.76      0.73        41
+
+    accuracy                           0.63        63
+   macro avg       0.59      0.58      0.58        63
+weighted avg       0.62      0.63      0.63        63
+
+2024-12-10 19:43:38,616 - INFO - Confusion Matrix:
+[[ 9 13]
+ [10 31]]
+2024-12-10 19:43:38,616 - INFO - Training LogisticRegression...
+2024-12-10 19:43:38,616 - INFO - Using previously saved best parameters for LogisticRegression: {'C': 1.0, 'class_weight': None, 'penalty': 'l2', 'solver': 'liblinear'}
+2024-12-10 19:43:38,628 - INFO - Classification Report for LogisticRegression:
+              precision    recall  f1-score   support
+
+           0       0.60      0.27      0.37        22
+           1       0.70      0.90      0.79        41
+
+    accuracy                           0.68        63
+   macro avg       0.65      0.59      0.58        63
+weighted avg       0.66      0.68      0.64        63
+
+2024-12-10 19:43:38,629 - INFO - Confusion Matrix:
+[[ 6 16]
+ [ 4 37]]
+2024-12-10 19:43:38,629 - INFO - Training AdaBoost...
+2024-12-10 19:43:38,629 - INFO - Using previously saved best parameters for AdaBoost: {'algorithm': 'SAMME.R', 'learning_rate': 0.1, 'n_estimators': 50}
+2024-12-10 19:43:38,695 - INFO - Classification Report for AdaBoost:
+              precision    recall  f1-score   support
+
+           0       0.56      0.41      0.47        22
+           1       0.72      0.83      0.77        41
+
+    accuracy                           0.68        63
+   macro avg       0.64      0.62      0.62        63
+weighted avg       0.67      0.68      0.67        63
+
+2024-12-10 19:43:38,696 - INFO - Confusion Matrix:
+[[ 9 13]
+ [ 7 34]]
+2024-12-10 19:43:38,696 - INFO - Training MLP...
+2024-12-10 19:43:38,696 - INFO - Using previously saved best parameters for MLP: {'activation': 'relu', 'alpha': 1.0, 'hidden_layer_sizes': [50, 50], 'learning_rate': 'adaptive', 'solver': 'adam'}
+C:\Users\Dhruv\anaconda3\envs\mlpr\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:686: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  warnings.warn(
+2024-12-10 19:43:38,875 - INFO - Classification Report for MLP:
+              precision    recall  f1-score   support
+
+           0       0.69      0.50      0.58        22
+           1       0.77      0.88      0.82        41
+
+    accuracy                           0.75        63
+   macro avg       0.73      0.69      0.70        63
+weighted avg       0.74      0.75      0.73        63
+
+2024-12-10 19:43:38,875 - INFO - Confusion Matrix:
+[[11 11]
+ [ 5 36]]
+2024-12-10 19:43:38,876 - INFO - Training NaiveBayes...
+2024-12-10 19:43:38,891 - INFO - Classification Report for NaiveBayes:
+              precision    recall  f1-score   support
+
+           0       0.43      0.91      0.58        22
+           1       0.88      0.34      0.49        41
+
+    accuracy                           0.54        63
+   macro avg       0.65      0.63      0.54        63
+weighted avg       0.72      0.54      0.52        63
+
+2024-12-10 19:43:38,892 - INFO - Confusion Matrix:
+[[20  2]
+ [27 14]]
+2024-12-10 19:43:39,073 - INFO - Classification Report for VotingClassifier:
+              precision    recall  f1-score   support
+
+           0       0.68      0.59      0.63        22
+           1       0.80      0.85      0.82        41
+
+    accuracy                           0.76        63
+   macro avg       0.74      0.72      0.73        63
+weighted avg       0.76      0.76      0.76        63
+
+2024-12-10 19:43:39,074 - INFO - Confusion Matrix for VotingClassifier:
+[[13  9]
+ [ 6 35]]
+2024-12-10 19:43:39,864 - INFO - Classification Report for StackingClassifier:
+              precision    recall  f1-score   support
+
+           0       0.85      0.50      0.63        22
+           1       0.78      0.95      0.86        41
+
+    accuracy                           0.79        63
+   macro avg       0.81      0.73      0.74        63
+weighted avg       0.80      0.79      0.78        63
+
+2024-12-10 19:43:39,864 - INFO - Confusion Matrix for StackingClassifier:
+[[11 11]
+ [ 2 39]]
+2024-12-10 19:43:39,864 - INFO -
+Model Performance Comparison:
+
+2024-12-10 19:43:39,865 - INFO -                  Model  Accuracy  ROC AUC Score
+11  StackingClassifier  0.793651       0.774945
+7             AdaBoost  0.682540       0.758869
+1                  KNN  0.746032       0.758315
+10    VotingClassifier  0.761905       0.756098
+2     GradientBoosting  0.714286       0.754989
+8                  MLP  0.746032       0.746120
+3           ExtraTrees  0.698413       0.733925
+0                  SVM  0.761905       0.728381
+4         RandomForest  0.682540       0.689579
+6   LogisticRegression  0.682540       0.688470
+9           NaiveBayes  0.539683       0.580931
+5         DecisionTree  0.634921       0.519956
