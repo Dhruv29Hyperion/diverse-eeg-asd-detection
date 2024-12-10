@@ -1,0 +1,60 @@
+{
+    "SVM": {
+        "C": 100.0,
+        "class_weight": "balanced",
+        "gamma": "scale",
+        "kernel": "rbf"
+    },
+    "KNN": {
+        "algorithm": "auto",
+        "n_neighbors": 3,
+        "weights": "distance"
+    },
+    "GradientBoosting": {
+        "learning_rate": 0.1,
+        "max_depth": 7,
+        "max_features": "sqrt",
+        "min_samples_split": 2,
+        "n_estimators": 300,
+        "subsample": 0.5
+    },
+    "ExtraTrees": {
+        "max_depth": 30,
+        "max_features": "log2",
+        "min_samples_split": 2,
+        "n_estimators": 200
+    },
+    "RandomForest": {
+        "bootstrap": false,
+        "max_depth": null,
+        "max_features": "auto",
+        "min_samples_split": 2,
+        "n_estimators": 50
+    },
+    "DecisionTree": {
+        "criterion": "entropy",
+        "max_depth": null,
+        "min_samples_split": 2
+    },
+    "LogisticRegression": {
+        "C": 10.0,
+        "class_weight": "balanced",
+        "penalty": "l2",
+        "solver": "liblinear"
+    },
+    "AdaBoost": {
+        "algorithm": "SAMME",
+        "learning_rate": 1.0,
+        "n_estimators": 200
+    },
+    "MLP": {
+        "activation": "logistic",
+        "alpha": 0.01,
+        "hidden_layer_sizes": [
+            100,
+            50
+        ],
+        "learning_rate": "constant",
+        "solver": "lbfgs"
+    }
+}
