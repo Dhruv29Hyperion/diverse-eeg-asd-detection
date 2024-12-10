@@ -1,0 +1,15 @@
+Test Loss, Test Accuracy: [0.7608438730239868, 0.6000000238418579]
+1/1 [==============================] - 0s 436ms/step
+Shape of y_pred_class_1: (10,)
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.67      0.40      0.50         5
+           1       0.57      0.80      0.67         5
+
+    accuracy                           0.60        10
+   macro avg       0.62      0.60      0.58        10
+weighted avg       0.62      0.60      0.58        10
+
+ROC AUC Score: 0.8800
