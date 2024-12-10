@@ -1,0 +1,16 @@
+Aging Dataset - Combined Feature Set - Ensemble Model Results
+Model Performance Comparison:
+
+2024-12-10 20:17:00,202 - INFO -                  Model  Accuracy  ROC AUC Score
+3           ExtraTrees  0.850000       0.909091
+11  StackingClassifier  0.816667       0.903110
+10    VotingClassifier  0.783333       0.889952
+2     GradientBoosting  0.800000       0.881579
+4         RandomForest  0.816667       0.875000
+8                  MLP  0.800000       0.840909
+1                  KNN  0.766667       0.825359
+0                  SVM  0.716667       0.822967
+5         DecisionTree  0.766667       0.758373
+7             AdaBoost  0.566667       0.651914
+9           NaiveBayes  0.516667       0.644737
+6   LogisticRegression  0.650000       0.642344
